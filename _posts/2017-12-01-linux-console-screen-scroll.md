@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Scrol output in screen"
+date:   2017-12-01 16:16:01 +0100
+categories: screen
+---
+
 ## Scrol output in screen
 
 To move up in screen session you have to use `copy mode` similar to vim block mode. 

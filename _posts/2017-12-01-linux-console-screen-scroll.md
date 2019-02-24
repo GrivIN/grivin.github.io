@@ -5,9 +5,7 @@ date:   2017-12-01 16:16:01 +0100
 categories: screen
 ---
 
-## Scrol output in screen
-
-To move up in screen session you have to use `copy mode` similar to vim block mode. 
+To move up in screen session you have to use `copy mode` similar to vim block mode.
 
 * Hit your screen prefix combination (`C-a` / `control+A` by default), then hit `Escape`.
 * Move up/down with the arrow keys (`↑` and `↓`).

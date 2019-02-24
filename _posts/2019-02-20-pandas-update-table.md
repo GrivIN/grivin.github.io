@@ -6,6 +6,4 @@ categories: [pandas]
 tags: [pandas, postgresql, mysql]
 ---
 
-## Pandas update DB table contents
-
 TODO

@@ -3,5 +3,5 @@
 
 # {{ post.title }}
 
-{{ post.contents }}
+{{ post.content }}
 {% endfor %}

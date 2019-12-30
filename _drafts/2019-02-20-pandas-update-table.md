@@ -1,9 +1,6 @@
 ---
 layout: post
 title:  "Pandas update DB table contents (WIP)"
-date:   2019-02-20 16:16:01 +0100
-categories: [pandas]
-tags: [pandas, postgresql, mysql]
 ---
 
 I use Pandas in multiple projects to process data. In all of them at some point I faced problem with updating existing data in target tables. With Pandas internals you can only replace whole table or add new rows to existing.

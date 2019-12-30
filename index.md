@@ -3,5 +3,7 @@
 
 # {{ post.title }}
 
-{{ post.content }}
+{{ post.excerpt }}
+
+<a href="{{ post.url }}">Continue...</a>
 {% endfor %}

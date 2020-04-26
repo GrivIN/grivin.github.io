@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Update table from CSV in PostgreSQL"
+title:  "Insert data table from CSV in PostgreSQL"
 ---
 
 How to speed up uploading 20.3 MB CSV file into PostgreSQL tables with Python from `16.1s` to `134ms`(!)
@@ -19,7 +19,7 @@ also active PostgreSQL database is needed, let's use docker version just for con
 docker run -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword postgres
 ```
 
-lets get an example csv file from https://population.un.org
+lets get an example csv file from https://population.un.org (it is approx. 21,35MB)
 ```bash
 wget https://population.un.org/wpp/Download/Files/1_Indicators%20\(Standard\)/CSV_FILES/WPP2019_TotalPopulationBySex.csv
 ```
